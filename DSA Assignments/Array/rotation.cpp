@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main() 
+{
+int size,Times;
+cin >> size >> Times;
+int arr[size];
+for (int i = 0; i < size; i++)
+{
+cin >> arr[i];
+}
+for(int i=Times;i<size;i++)
+cout << arr[i] << " ";
+for(int i=0;i<Times;i++)
+cout << arr[i] << " ";
+return 0;
+}
